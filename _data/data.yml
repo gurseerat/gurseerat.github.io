@@ -1,290 +1,161 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 sidebar:
-  position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
+  position: right
+  about: True
+  education: True
 
-  # Profile information
   name: Gurseerat Kaur
-  tagline: Software Engineer
-  avatar: profile.jpeg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  tagline: Full Stack Software Engineer
+  avatar: profile.jpeg
 
-  # Sidebar links
   email: me.gurseerat11@gmail.com
   timezone: Asia/Kolkata
   citizenship: Indian
   website: https://gurseerat.medium.com
   linkedin: gurseerat-kaur-885863143
   github: gurseerat
-  codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  mastodon: # Please include your full Mastodon link here.
-  hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
-  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
   interests:
     title: Interests
     info:
-    - item: Reading
-      link:
-
-
-    - item: Gaming
-      link:
+      - item: Reading
+      - item: Gaming
 
 career-profile:
   title: Career Profile
   summary: |
-    Well-rounded full stack developer with over 8 years of experience building and enhancing web applications across industries like aerospace, edtech, and public services. Skilled in Angular (7+), Node.js, and MongoDB, with a solid grasp of PHP and .NET fundamentals. Known for delivering scalable, accessible, and maintainable solutions—whether it's crafting RESTful APIs, revamping UI experiences, or leading teams through fast-paced rollouts. Adept at turning requirements into clean, production-ready code and collaborating across global teams. Committed to continuous learning and building software that’s both technically sound and user-centric.
+    Accomplished full stack developer with 8+ years of experience building enterprise-grade web applications for global clients across aerospace, edtech, and public sectors. Proficient in Angular (7+), Node.js, and MongoDB, with solid knowledge of PHP and .NET. Known for engineering scalable, accessible solutions and collaborating across geographically distributed teams. Skilled in translating business needs into technical implementations, optimizing legacy codebases, and mentoring junior developers. Passionate about writing clean, maintainable code and building products that deliver both technical robustness and excellent user experience.
+
 education:
   title: Education
   info:
-  - degree: Bachelors in Computer Applications
-    university: Guru Gobind Singh Indraprastha University
-    time: 2012 - 2015
-    details: |
-      Graduated First Class with Distinction (72%). Foundation in software engineering, databases, and programming principles.
+    - degree: Bachelor of Computer Applications
+      university: Guru Gobind Singh Indraprastha University
+      time: 2012 - 2015
+      details: |
+        Graduated with First Class Distinction (72%). Covered core subjects including software engineering, database systems, data structures, and programming.
 
 experiences:
   title: Experiences
   info:
-  - role: Software Engineer
-    time: Nov 2021 - Present
-    company: Airbus India Pvt. Ltd., Bengaluru
-    details: |
-      As a Software Engineer at Airbus, I have been instrumental in enhancing the company's internal ERP and quality management systems. My role involves developing new features, refining user interfaces, and ensuring the scalability and maintainability of applications used across Airbus operations.
-        - Collaborated with cross-functional teams in Germany and France to enhance Airbus’s internal ERP and quality management systems.
-        - Developed new features and refined UI for the Line Balancing Tool using Angular, improving scalability and user experience.
-        - Contributed to an Angular-based open-source design system used across Airbus applications, ensuring consistency and accessibility.
-        - Worked on a Quality Management Tool used to inspect aircraft components, helping digitize inspection workflows and improve traceability.
-        - Built and maintained unit and integration test cases to support code stability and CI/CD pipelines.
-        - Gathered requirements directly from business stakeholders and translated them into actionable user stories and technical specs.
-        - Mentored junior developers by conducting code reviews, walkthroughs, and sharing best practices for frontend architecture.
-        - Delivered high-quality features as part of an agile, globally distributed team following Scrum practices.
-        - Supported backend services using .NET and managed cloud-native deployments on OpenShift.
-        - Optimized and refactored existing codebases to align with industry best practices, improving code readability, performance, and maintainability across multiple modules.
-  - role: Full Stack Developer
-    time: Nov 2020 – Nov 2021
-    company: Edufied, Singapore
-    details: |
-      Assisted in scope definition, planning, estimation, and progress tracking.
-        - Spearheaded full-stack development for two major platforms: a blockchain-based document verification system and a national workforce registry for the Philippines’ construction sector.
-        - Refactored large sections of legacy Angular 8 and Node.js codebases to improve modularity, readability, and adherence to best practices, significantly reducing tech debt and increasing maintainability.
-        - Designed and implemented RESTful APIs, microservice endpoints, and frontend components to enable secure digital document issuance, storage, and QR code-based validation using blockchain integration.
-        - Built complex user interfaces and form-driven workflows using Angular, optimizing responsiveness, accessibility, and state management across multiple modules.
-        - Developed backend business logic and data models in Node.js and MongoDB, handling schema design, validation, and asynchronous processing for high-volume user transactions.
-        - Led the development and delivery of the CIAP (Construction Industry Authority of the Philippines) platform, managing team velocity, distributing technical tasks, and performing code reviews.
-        - Collaborated with product owners and cross-functional teams to translate user requirements into scalable technical specifications and sprint deliverables within Agile development cycles.
-        - Established consistent deployment standards, maintained CI pipelines, and supported testing strategies to ensure smooth release management and rollback mechanisms.
+    - role: Software Engineer
+      time: Nov 2021 - Present
+      company: Airbus India Pvt. Ltd., Bengaluru
+      details: |
+          Developing and maintaining internal ERP and quality systems across Airbus operations.
+          - Enhanced the Line Balancing Tool using Angular to improve scalability and usability.
+          - Co-developed Airbus's Angular-based design system, ensuring brand consistency and accessibility across applications.
+          - Led frontend development for a Quality Management Tool streamlining inspection of aircraft components.
+          - Integrated NgRx for scalable state management and predictable app behavior.
+          - Gathered business requirements and converted them into detailed technical specifications.
+          - Delivered features through Scrum-driven agile sprints and supported DevOps via OpenShift-based deployments.
+          - Mentored team members through code reviews and knowledge sharing.
+          - Improved test coverage with unit and integration tests to support CI/CD.
 
-  - role: Software Development Engineer II
-    company: Simplilearn, Bengaluru
-    time: Jun 2019 – Nov 2020
-    details: |
-      As a Software Development Engineer II at Simplilearn, I played a key role in enhancing the Learning Management System (LMS) and internal tools, focusing on user engagement and operational efficiency.
-        - Developed and maintained new features for Simplilearn’s Learning Management System (LMS) using Angular 7 and PHP, enhancing learner engagement and platform usability.
-        - Designed and implemented RESTful APIs to fetch, manipulate, and persist course and user data, ensuring seamless frontend-backend integration.
-        - Wrote and maintained unit and integration tests using Karma, Jasmine, Mocha, and Chai across Angular and Node.js services to ensure stability and regression safety.
-        - Built and optimized internal tools and microservices using Angular, Node.js, Express.js, and jQuery, streamlining business operations and reducing manual overhead.
-        - Collaborated with senior management on technology strategy, enforcing corporate standards for deployment, architecture decisions, and documentation.
-        - Participated in sprint ceremonies to define scope, plan releases, estimate timelines, and track implementation within an Agile environment.
-        - Ensured web applications met WCAG-ARIA accessibility standards, promoting inclusive user experiences.
+    - role: Full Stack Developer
+      time: Nov 2020 – Nov 2021
+      company: Edufied, Singapore
+      details: |
+        Delivered two major platforms: a blockchain-powered document verification system and a national workforce registry.
+          - Modernized Angular and Node.js codebases to reduce tech debt and increase performance.
+          - Built and consumed APIs to support secure document issuance and blockchain-based validation.
+          - Architected frontend modules with optimized state management and responsive UI components.
+          - Integrated face detection using Face-api.js for secure login verification workflows.
+          - Designed and implemented backend data models, business logic, and asynchronous workflows.
+          - Oversaw CI/CD pipeline setup, ensuring automated test and deployment processes.
+          - Collaborated with cross-functional teams and managed delivery in an Agile environment.
 
-  - role: Front End Developer
-    company: Sodio Technologies Pvt Ltd, Bengaluru
-    time: Dec 2018 – Mar 2019
-    details: |
-      As a Front End Developer at Sodio Technologies, I focused on building responsive and user-friendly web applications for various clients, leveraging Angular and modern web standards.
-      - Collaborated on UI/UX planning and implementation for multiple client applications, focusing on responsive layout, accessibility, and design consistency.
-      - Designed the visual structure and interactive behavior of websites and software products based on user needs and business goals.
-      - Used Angular and modern HTML/CSS techniques to build sleek, mobile-friendly interfaces with clean component-based architecture.
-      - Applied early knowledge of Vue.js to support dashboard development and prototyping initiatives.
-      - Contributed to sitemap planning and interface structuring to ensure intuitive user journeys and scalable front-end routing.
-      - Participated in team discussions on tech feasibility, interface choices, and timelines under tight client-driven deadlines.
-      - Strengthened frontend best practices through involvement in accessibility (WCAG) and semantic HTML discussions.
+    - role: Software Development Engineer II
+      time: Jun 2019 – Nov 2020
+      company: Simplilearn, Bengaluru
+      details: |
+        Contributed to feature development for LMS and internal tools to improve user engagement and operations.
+          - Developed Angular 7 and NodeJs modules to enhance learning workflows.
+          - Used NgRx to manage complex state in high-traffic LMS modules, improving maintainability and debugging.
+          - Integrated Firebase for real-time event logging and Kafka for async processing in backend pipelines.
+          - Built RESTful APIs and data services supporting real-time course interactions.
+          - Implemented testing suites using Karma, Jasmine, Mocha, and Chai to maintain high code quality.
+          - Created internal productivity tools to automate tasks and improve admin efficiency.
+          - Drove accessibility compliance and ensured WCAG standards across key modules.
 
-  - role: Web Developer
-    company: Kamyab Infotech Pvt Ltd, New Delhi
-    time: Jun 2017 – Aug 2018
-    details: |
-      As a Web Developer at Kamyab Infotech, I was responsible for developing and maintaining dynamic websites and applications, focusing on client-specific requirements and rapid delivery.
-        - Developed and maintained dynamic websites using PHP, Ajax, and jQuery, delivering customized solutions for various clients.
-        - Created database schemas and structured relational data models based on CRM system requirements, ensuring data integrity and scalability.
-        - Customized WordPress themes and plugins to align with unique client specifications, enhancing functionality and design responsiveness.
-        - Utilized rapid application development (RAD) tools like Scriptcase to accelerate delivery of internal applications and client-facing portals.
-        - Collaborated with cross-functional teams to plan UI layouts, optimize load performance, and implement interactive elements using HTML5/CSS3.
-        - Ensured code modularity, proper documentation, and adherence to version control practices in a fast-paced agency setting.
+    - role: Front End Developer
+      time: Dec 2018 – Mar 2019
+      company: Sodio Technologies Pvt Ltd, Bengaluru
+      details: |
+        Delivered UI components for various clients with a focus on mobile responsiveness and design consistency.
+          - Designed pixel-perfect interfaces using Angular and modern HTML/CSS techniques.
+          - Participated in early Vue.js prototyping for dashboard modules.
+          - Collaborated with stakeholders to translate design mockups into interactive experiences.
 
-#certifications:
-#  title: Certifications
-#  list:
-#  - name: CV Builder
-#    start: 2020
-#    end: 2021
-#    organization: Microsoft
-#    credentialid: 111-222
-#    credentialurl: www.google.com
-#    credentialname: Google
-#    details: |
-#      Details about cert. Lorem ipsum dolor sit amet, consectetur
-#      adipiscing elit.
-#      Nullam eget orci purus. Nullam ultrices neque nibh.
-#      Aenean fermentum, felis vulputate suscipit accumsan,
-#      sem enim bibendum augue, sed convallis arcu lacus at dui.
-#      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-#      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-#      Praesent venenatis erat non augue suscipit consectetur.
-#
-#      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-#      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-#      justo diam viverra velit, sed rhoncus leo leo eu justo.
-#      Suspendisse placerat risus ante, sed porta nisi blandit at.
-#  - name: Git learning
-#    start: 2019
-#    end:
-#    organization: Microsoft
-#    credentialid: 111-222
-#    credentialurl: www.github.com
-#    credentialname: Github
-#    details: |
-#      Older certification. Lorem ipsum dolor sit amet, consectetur
-#      adipiscing elit.
-#      Nullam eget orci purus. Nullam ultrices neque nibh.
-#      Aenean fermentum, felis vulputate suscipit accumsan,
-#      sem enim bibendum augue, sed convallis arcu lacus at dui.
-#      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-#      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-#      Praesent venenatis erat non augue suscipit consectetur.
+    - role: Web Developer
+      time: Jun 2017 – Aug 2018
+      company: Kamyab Infotech Pvt Ltd, New Delhi
+      details: |
+        Designed and maintained custom web applications tailored to client needs.
+          - Delivered dynamic websites using PHP, jQuery, and Ajax.
+          - Customized WordPress plugins and templates for feature enhancements.
+          - Used RAD tools like Scriptcase to accelerate backend development.
+          - Collaborated with design teams to build user-centric and performant UIs.
 
 projects:
   title: Projects
   intro: >
-    Here are some of the key platforms and tools I’ve contributed to, spanning ERP systems, learning platforms, and aerospace manufacturing solutions.
+    Key platforms and solutions I’ve contributed to, showcasing my ability to deliver high-impact applications in both enterprise and consumer contexts.
 
   assignments:
     - title: EngageX – Simplilearn
       link: "#"
       tagline: >
-        An internal ERP platform for managing trainers, customers, training schedules, and operational workflows across Simplilearn’s learning ecosystem.
+        ERP platform for managing instructor operations, customer training, and business workflows.
 
     - title: Learning Management System (LMS) – Simplilearn
       link: "#"
       tagline: >
-        Simplilearn’s core customer-facing platform for purchasing and accessing online courses, featuring personalized learning paths, content delivery, and progress tracking.
+        Customer-facing LMS enabling users to access courses, track learning progress, and personalize paths.
 
     - title: Line Balancing Tool (PERT) – Airbus
       link: "#"
       tagline: >
-        A production planning tool used in aircraft manufacturing to manage operations, resource allocation, scheduling, and configuration workflows.
+        Tool for optimizing production planning, scheduling, and resource allocation in aircraft assembly lines.
 
     - title: MQM – Mobile Quality Management – Airbus
       link: "#"
       tagline: >
-        A portable inspection platform used on-site in Airbus’s German manufacturing plant to streamline aircraft component quality checks and ensure compliance in real-time.
-
-#oss:
-#  title: OSS Contributions
-#  intro: >
-#    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-#  contributions:
-#  - title: Tempo
-#    link: "#"
-#    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-#
-#  - title: Atom
-#    link: "#"
-#    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-#
-#  - title: Delta
-#    link: "#"
-#    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-#
-#publications:
-#  title: Publications
-#  intro: |
-#    You can list your publications in this section. Lorem ipsum dolor sit
-#    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-#    bibendum fringilla a eu lectus.
-#  papers:
-#  - title: The Art of Computer Programming
-#    link: "#"
-#    authors: Donald E. Knuth
-#    conference: Addison-Wesley, 1968
-#
-#  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-#    link: "#"
-#    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-#    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-#
-#  - title: A syntax directed compiler for Algol 60
-#    link: "#"
-#    authors: Edgar T. Irons
-#    conference: "Comm. ACM 4 (1961), 51–55"
-
-#recommendations:
-#  title: Recommendations
-#  list:
-#  - person: Yareli Perez
-#    email: perezyareli@example.com
-#    phone: 012 345 6789
-#    role: General Director at example.com
-#    recommendation: |
-#      Alan Doe is a super employee!
-#  - person: Lara Henderson
-#    email: larah@example.com
-#    phone: 012 345 6789
-#    role: General Director at example.com
-#    recommendation: |
-#      I would like to work with Alan Doe again!
-#
-#      He is a great employee!
+        A responsive web-based application used in Airbus’s German plants to digitize and streamline aircraft component quality inspections in real-time, improving traceability and compliance.
 
 skills:
   title: Skills & Proficiency
 
   toolset:
-    - name: Angular 7+ & TypeScript
+    - name: Angular 7+ & TypeScript (with NgRx, Angular Material, PrimeNG)
       level: 95%
-
     - name: JavaScript (ES6+) & jQuery
       level: 95%
-
     - name: Node.js & Express.js
       level: 90%
-
-    - name: HTML5/CSS3 & SASS/LESS
+    - name: HTML5/CSS3, SCSS & SASS/LESS
       level: 95%
-
     - name: MongoDB & MySQL
       level: 85%
-
     - name: PHP (Laravel & Core)
       level: 80%
-
-    - name: REST APIs & AJAX
+    - name: REST APIs, AJAX & Webpack
       level: 90%
-
     - name: Unit Testing (Karma, Jasmine, Mocha, Chai)
       level: 85%
-
     - name: OpenShift & CI/CD Pipelines
       level: 80%
-
+    - name: Firebase & Kafka Integration
+      level: 80%
     - name: Git & Version Control
       level: 90%
-
     - name: Accessibility (WCAG/ARIA)
       level: 85%
-
-    - name: Face-api.js & Geolocation API
+    - name: Face-api.js, Geolocation API & yFiles (Graph rendering)
       level: 75%
-
     - name: Agile Methodologies & Team Leadership
       level: 90%
+
+
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Gurseerat Kaur</a>
