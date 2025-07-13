@@ -19,6 +19,7 @@ sidebar:
     info:
       - item: Reading
       - item: Gaming
+      - item: Coding
 
 career-profile:
   title: Career Profile
@@ -155,7 +156,14 @@ skills:
     - name: Agile Methodologies & Team Leadership
       level: 90%
 
-
+oss:
+  title: OSS Contributions
+  intro: >
+    I have contributed to the open-source community by creating developer tools that simplify and accelerate Angular development. My work focuses on improving code consistency and reducing boilerplate, especially around NgRx state management.
+  contributions:
+    - title: NgRx Store CLI
+      link: "https://www.npmjs.com/package/ngrx-store-cli"
+      tagline: "A schematic for Angular that simplifies the creation of NgRx store slices — including actions, reducers, selectors, and automatic integration with your app-state.ts."
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Gurseerat Kaur</a>
