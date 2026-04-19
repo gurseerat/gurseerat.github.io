@@ -157,6 +157,20 @@ p {
       }
     }
   }
+
+  .achievements-list {
+    margin-bottom: 0;
+    li {
+      margin-bottom: 10px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.list-styled {
+  padding-left: 0;
 }
 
 .main-wrapper {
