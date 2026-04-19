@@ -21,10 +21,20 @@ sidebar:
       - item: Gaming
       - item: Coding
 
+  achievements:
+    title: Achievements
+    info:
+      - details: "Recognized as Top 3 Developer Participant at Airbus for contributions to the Design System, improving UI consistency and developer productivity across applications."
+      - details: "Improved performance of the MQM (Mobile Quality Management) application by 40% through frontend optimization, efficient state management, and performance tuning."
+      - details: "Led modernization of legacy systems, enhancing scalability, maintainability, and overall system reliability."
+      - details: "Delivered high-impact features across aerospace and enterprise applications, improving user experience and operational efficiency."
+      - details: "Developed and contributed to open-source projects including the Chrome extension TabStack, demonstrating innovation and product ownership."
+
+
 career-profile:
   title: Career Profile
   summary: |
-    Accomplished full stack developer with 8+ years of experience building enterprise-grade web applications for global clients across aerospace, edtech, and public sectors. Proficient in Angular (7+), Node.js, and MongoDB, with solid knowledge of PHP and .NET. Known for engineering scalable, accessible solutions and collaborating across geographically distributed teams. Skilled in translating business needs into technical implementations, optimizing legacy codebases, and mentoring junior developers. Passionate about writing clean, maintainable code and building products that deliver both technical robustness and excellent user experience.
+    Senior Full Stack Developer with 9 years of experience building scalable, enterprise-grade web applications for global clients across aerospace, EdTech, and public sector domains. Expertise in Angular (7+), Node.js, MongoDB, and .NET Core, with a strong focus on frontend architecture, performance optimization, and maintainable codebases. Proven ability to modernize legacy systems, design reusable UI components, and deliver user-centric solutions in distributed, cross-functional teams. Experienced in translating complex business requirements into robust technical implementations and mentoring developers to drive engineering excellence.
 
 education:
   title: Education
@@ -42,15 +52,17 @@ experiences:
       time: Nov 2021 - Present
       company: Airbus India Pvt. Ltd., Bengaluru
       details: |
-          Developing and maintaining internal ERP and quality systems across Airbus operations.
-          - Enhanced the Line Balancing Tool using Angular to improve scalability and usability.
-          - Co-developed Airbus's Angular-based design system, ensuring brand consistency and accessibility across applications.
-          - Led frontend development for a Quality Management Tool streamlining inspection of aircraft components.
-          - Integrated NgRx for scalable state management and predictable app behavior.
-          - Gathered business requirements and converted them into detailed technical specifications.
-          - Delivered features through Scrum-driven agile sprints and supported DevOps via OpenShift-based deployments.
-          - Mentored team members through code reviews and knowledge sharing.
-          - Improved test coverage with unit and integration tests to support CI/CD.
+        Developing and maintaining enterprise-grade ERP and quality systems supporting Airbus operations.
+        - Enhanced the Line Balancing Tool using Angular, improving scalability, performance, and usability for complex workflows.
+        - Co-developed an Angular-based design system, ensuring consistency, accessibility, and reusable UI components across multiple applications.
+        - Led frontend development for a Quality Management Tool, streamlining inspection processes for aircraft components and improving operational efficiency.
+        - Implemented NgRx for scalable state management, enabling predictable application behavior and easier debugging.
+        - Built and integrated backend services using .NET Core (latest versions), ensuring robust API design and seamless frontend-backend communication.
+        - Collaborated with cross-functional stakeholders to gather requirements and translate them into scalable technical solutions.
+        - Delivered features in Agile (Scrum) environments with continuous integration and deployment pipelines.
+        - Supported containerized deployments using OpenShift, improving release reliability and environment consistency.
+        - Mentored developers through code reviews and technical guidance, improving overall code quality and team productivity.
+        - Increased test coverage through unit and integration testing, strengthening CI/CD pipelines and reducing production defects.
 
     - role: Full Stack Developer
       time: Nov 2020 – Nov 2021
@@ -127,33 +139,33 @@ skills:
   title: Skills & Proficiency
 
   toolset:
-    - name: Angular 7+ & TypeScript (with NgRx, Angular Material, PrimeNG)
+    - name: "Frontend: Angular (7+), TypeScript, RxJS, NgRx, Angular Material, PrimeNG"
       level: 95%
-    - name: JavaScript (ES6+) & jQuery
+    - name: "Web Fundamentals: JavaScript (ES6+), HTML5, CSS3, SCSS, Responsive Design, Web Accessibility (WCAG/ARIA)"
       level: 95%
-    - name: Node.js & Express.js
+    - name: "Backend: Node.js, Express.js, RESTful API Design, Microservices Architecture"
       level: 90%
-    - name: HTML5/CSS3, SCSS & SASS/LESS
-      level: 95%
-    - name: MongoDB & MySQL
+    - name: "Backend (Secondary): .NET Core (ASP.NET Core Web APIs)"
+      level: 70%
+    - name: "Databases: MongoDB, MySQL (Data Modeling, Indexing, Query Optimization)"
       level: 85%
-    - name: PHP (Laravel & Core)
-      level: 80%
-    - name: REST APIs, AJAX & Webpack
+    - name: "State Management & Architecture: NgRx, Reactive Programming, Modular Architecture, Design Systems"
       level: 90%
-    - name: Unit Testing (Karma, Jasmine, Mocha, Chai)
+    - name: "Testing: Unit Testing (Karma, Jasmine, Mocha, Chai), Integration Testing"
       level: 85%
-    - name: OpenShift & CI/CD Pipelines
+    - name: "DevOps & Cloud: OpenShift, Docker (Basics), CI/CD Pipelines, GitHub Actions / Jenkins"
       level: 80%
-    - name: Firebase & Kafka Integration
-      level: 80%
-    - name: Git & Version Control
+    - name: "Messaging & Realtime Systems: Kafka, Firebase, Event-Driven Architecture"
+      level: 70%
+    - name: "Performance Optimization: Lazy Loading, Code Splitting, Caching, Bundle Optimization"
+      level: 85%
+    - name: "Tools & Collaboration: Git, GitHub, Bitbucket, Jira, Agile/Scrum"
       level: 90%
-    - name: Accessibility (WCAG/ARIA)
-      level: 85%
-    - name: Face-api.js, Geolocation API & yFiles (Graph rendering)
+    - name: "Security & Auth: JWT, Role-Based Access Control (RBAC), Secure API Design"
       level: 75%
-    - name: Agile Methodologies & Team Leadership
+    - name: "Specialized Libraries: Face-api.js, Geolocation API, yFiles (Graph Visualization)"
+      level: 75%
+    - name: "Leadership & Soft Skills: Technical Leadership, Mentorship, Cross-functional Collaboration, Problem Solving"
       level: 90%
 
 oss:
@@ -165,5 +177,26 @@ oss:
       link: "https://www.npmjs.com/package/ngrx-store-cli"
       tagline: "A schematic for Angular that simplifies the creation of NgRx store slices — including actions, reducers, selectors, and automatic integration with your app-state.ts."
 
+    - title: TabStack (Chrome Extension)
+      link: "https://chromewebstore.google.com/detail/kllhbpmenkejgnhmioaomhanmpnacpkd?utm_source=item-share-cb"
+      tagline: "Productivity-focused Chrome extension that enables users to organize, group, and manage browser tabs efficiently. Designed to improve workflow efficiency for developers and power users by reducing tab clutter and enabling quick context switching."
+
+publications:
+  title: Publications
+  intro: >
+    I write technical articles on frontend architecture, Angular performance, and scalable web development practices, sharing insights from real-world enterprise experience.
+
+  papers:
+    - title: "10 TypeScript Anti-Patterns Slowing Down Your Development (and How to Avoid Them)"
+      link: "https://levelup.gitconnected.com/10-typescript-anti-patterns-slowing-down-your-development-and-how-to-avoid-them-79c5ffd4f1f6"
+    - title: "10 CSS Performance Hacks Every Frontend Developer Should Know"
+      link: "https://gurseerat.medium.com/10-css-performance-hacks-every-frontend-developer-should-know-but-most-dont-e1d551b56d8f"
+    - title: "Boost Angular Development with ngrx-store-cli: A Scalable State Management Approach"
+      link: "https://gurseerat.medium.com/boost-angular-development-with-ngrx-store-cli-the-ultimate-ngrx-store-schematic-generator-085d5c3deccf"
+    - title: "Web Workers in Angular: Improving Performance with Background Processing"
+      link: "gurseerat.medium.com/web-workers-in-angular-99fc4dac1d40"
+    - title: "Reducing Initial Load Time in Angular Applications: Performance Optimization Techniques"
+      link: "gurseerat.medium.com/reduce-initial-load-time-of-angular-application-9b9ed4a6bfc9"
+
 footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Gurseerat Kaur</a>
+  Designed with <i class="fas fa-heart"></i> by Gurseerat Kaur

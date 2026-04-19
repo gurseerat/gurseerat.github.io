@@ -1,0 +1,22 @@
+{% assign interests = site.data.data.sidebar.achievements %}
+{% if achievements %}
+<div class="achievements-container container-block">
+
+    <h2 class="container-block-title">
+        {{ achievements.title }}
+    </h2>
+
+    <ul class="list-styled achievements-list">
+        {% for achievement in achievements.info %}
+
+        {% if achievement.link %}
+        <li><a href="{{ achievement.link }}">{{ achievement.details }}</a></li>
+        {% else %}
+        <li>{{ achievement.details }}</li>
+        {% endif %}
+
+        {% endfor %}
+    </ul>
+
+</div><!--//achievements-->
+{% endif %}
