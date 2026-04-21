@@ -1,45 +1,187 @@
-@media print
-   {
-    @page {
-        size: A4;
-    }
-    body {
-       font-size: 12pt;
-    }
+@media print {
 
-    img.avatar {
-        filter: grayscale(1);
-        -webkit-filter: greyscale(1);
-    }
-   .main-wrapper .time {
-       float: right;
-        color: black !important;
-        -webkit-print-color-adjust: exact; 
-   }
-    .sidebar-wrapper {
-        position: static;
-        float: right;
-        width: 40%;
-        -webkit-print-color-adjust: exact; 
-    }
+  /* ===== PAGE SETUP ===== */
+  @page {
+    size: A4;
+    margin: 0;
+  }
 
-    .remove-container.container-block {
-       display: none;
-    }
+  html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 11pt;
+  }
 
-    footer {
-       display: none;
-    }
+  /* ===== PRESERVE COLORS (SAFE VERSION) ===== */
+  body {
+    -webkit-print-color-adjust: economy;
+    print-color-adjust: economy;
+  }
 
-    .skillset .level-bar-inner {
-       background-color: black !important;
-       -webkit-print-color-adjust: exact; 
-    }
+  .sidebar-wrapper {
+    width: 35% !important;
+    float: right !important;
+    background: $theme-color !important;
+    color: #ffffff !important;
+    height: 100%;
+    box-sizing: border-box;
+  }
 
-   .fa-inverse,
-   .fa-inverse:after,
-   .fa-inverse:before {
-     color: #ffffff !important;
-   }
+  .sidebar-wrapper .profile-container {
+    background: darken($theme-color, 15%) !important;
+  }
+
+  .sidebar-wrapper .profile-container .name {
+    font-size: 24px;
+  }
+
+  .sidebar-wrapper .contact-list {
+    display: flex;
+    flex-wrap: wrap;        /* allows wrapping to next line if needed */
+    gap: 6px 12px;          /* spacing between items */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .sidebar-wrapper .contact-list li {
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;    /* keeps each item together */
+  }
+
+  .main-wrapper {
+    width: 65% !important;
+    height: 100%;
+    padding: 40px !important;
+  }
+
+  .avatar {
+    width: 99px !important;
+  }
+
+  .wrapper {
+    box-sizing: border-box;
+    display: flex !important;
+    align-items: stretch; /* key for full height */
+    height: 100% !important;
+    min-height: 100% !important;
+  }
+
+  /* ===== TEXT COLORS ===== */
+  .sidebar-wrapper,
+  .sidebar-wrapper * {
+    color: #ffffff !important;
+  }
+
+  /* ===== REMOVE IMAGE FILTERS ===== */
+  img {
+    filter: none !important;
+    -webkit-filter: none !important;
+  }
+
+  .fa,
+  .fas,
+  .far {
+    font-family: "Font Awesome 5 Free" !important;
+    font-weight: 900 !important;
+    display: inline-block !important;
+    font-style: normal !important;
+  }
+
+  .fab, .fa-brands {
+    font-family: 'Font Awesome 6 Brands';
+    font-weight: 900 !important;
+    display: inline-block !important;
+    font-style: normal !important;
+  }
+
+  .sidebar-wrapper .contact-list .fas, .sidebar-wrapper .contact-list .fab, .sidebar-wrapper .contact-list .far {
+    color: #ffffff !important;
+  }
+
+  .fa-inverse,
+  .fa-inverse:before,
+  .fa-inverse:after {
+    color: #ffffff !important;
+  }
+
+  /* Also ensure stacked icons render correctly */
+  .fa-stack {
+    display: inline-block !important;
+  }
+
+  .fa-stack-1x {
+    color: #ffffff !important;
+  }
+
+  .main-wrapper .fa-stack-2x {
+    color: darken($theme-color, 15%) !important;
+  }
+
+  .main-wrapper .section-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    color: darken($theme-color, 15%) !important;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  .sidebar-wrapper .fa,
+  .sidebar-wrapper .fas,
+  .sidebar-wrapper .far,
+  .sidebar-wrapper .fab,
+  .sidebar-wrapper .fa:before,
+  .sidebar-wrapper .fas:before,
+  .sidebar-wrapper .far:before,
+  .sidebar-wrapper .fab:before {
+    color: #ffffff !important;
+    fill: #ffffff !important;
+  }
+
+  /* Fix stacked icons */
+  .sidebar-wrapper .fa-stack-1x {
+    color: #ffffff !important;
+  }
+
+  .sidebar-wrapper .fa-stack-2x {
+    color: rgba(255,255,255,0.2) !important; /* optional subtle background */
+  }
+
+  /* ===== LINKS ===== */
+  a[href]:after {
+    content: "" !important;
+  }
+
+  /* ===== PAGE BREAK CONTROL ===== */
+  .item {
+    page-break-inside: auto;
+    break-inside: auto;
+  }
+
+  .section {
+    page-break-inside: auto;
+  }
+
+  /* ===== CLEAR FLOATS ===== */
+  .main-wrapper::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .projects-section {
+    display: none;
+  }
+
+  .experiences-section .item:nth-child(3), .experiences-section .item:nth-child(6) {
+    padding-top: 30px !important;
+  }
+
+  .oss-container .item:nth-child(3) {
+    padding-top: 30px !important;
+  }
 
 }

@@ -23,12 +23,92 @@ sidebar:
 
   achievements:
     title: Achievements
-    info:
-      - details: "Recognized as Top 3 Developer Participant at Airbus for contributions to the Design System, improving UI consistency and developer productivity across applications."
-      - details: "Improved performance of the MQM (Mobile Quality Management) application by 40% through frontend optimization, efficient state management, and performance tuning."
-      - details: "Led modernization of legacy systems, enhancing scalability, maintainability, and overall system reliability."
-      - details: "Delivered high-impact features across aerospace and enterprise applications, improving user experience and operational efficiency."
-      - details: "Developed and contributed to open-source projects including the Chrome extension TabStack, demonstrating innovation and product ownership."
+    items:
+      - "Recognized as 3rd Best Developer Participant at Airbus for contributions to Angular Design System"
+      - "Improved MQM application performance by 40% through frontend optimization"
+      - "Led scalable frontend architecture using Angular and NgRx"
+      - "Mentored developers and improved code quality through reviews and best practices"
+
+  skills:
+    title: Skills
+    categories:
+      - name: Programming
+        items:
+          - JavaScript
+          - TypeScript
+          - C#
+
+      - name: Frontend
+        items:
+          - Angular
+          - RxJS
+          - NgRx
+          - HTML5
+          - CSS3
+
+      - name: Backend
+        items:
+          - Node.js
+          - .NET Core
+
+      - name: Cloud & DevOps
+        items:
+          - OpenShift
+          - Docker
+          - Kubernetes
+          - CI/CD
+
+      - name: Databases
+        items:
+          - MongoDB
+          - MySQL
+          - Firebase
+
+      - name: Unit Testing
+        items:
+          - Karma/Jasmine
+          - Mocha/Chai
+
+      - name: Tools & Practices
+        items:
+          - Git
+          - Nx Monorepo
+          - Agile/Scrum
+          - Microservices
+          - Design Systems
+          - Kafka integration
+          - yFiles
+          - Web Accessibility (WCAG/ARIA)
+
+  publications:
+    title: Publications
+    intro: >
+      I write technical articles on frontend architecture, Angular performance, and scalable web development practices, sharing insights from real-world enterprise experience.
+
+    papers:
+      - title: "10 TypeScript Anti-Patterns Slowing Down Your Development (and How to Avoid Them)"
+        link: "https://levelup.gitconnected.com/10-typescript-anti-patterns-slowing-down-your-development-and-how-to-avoid-them-79c5ffd4f1f6"
+      - title: "10 CSS Performance Hacks Every Frontend Developer Should Know"
+        link: "https://gurseerat.medium.com/10-css-performance-hacks-every-frontend-developer-should-know-but-most-dont-e1d551b56d8f"
+      - title: "Boost Angular Development with ngrx-store-cli: A Scalable State Management Approach"
+        link: "https://gurseerat.medium.com/boost-angular-development-with-ngrx-store-cli-the-ultimate-ngrx-store-schematic-generator-085d5c3deccf"
+      - title: "Web Workers in Angular: Improving Performance with Background Processing"
+        link: "gurseerat.medium.com/web-workers-in-angular-99fc4dac1d40"
+      - title: "Reducing Initial Load Time in Angular Applications: Performance Optimization Techniques"
+        link: "gurseerat.medium.com/reduce-initial-load-time-of-angular-application-9b9ed4a6bfc9"
+
+  oss:
+    title: OSS Contributions
+    intro: >
+      I have contributed to the open-source community by creating developer tools that simplify and accelerate Angular development. My work focuses on improving code consistency and reducing boilerplate, especially around NgRx state management.
+    contributions:
+      - title: NgRx Store CLI
+        link: "https://www.npmjs.com/package/ngrx-store-cli"
+        tagline: "A schematic for Angular that simplifies the creation of NgRx store slices — including actions, reducers, selectors, and automatic integration with your app-state.ts."
+
+      - title: TabStack (Chrome Extension)
+        link: "https://chromewebstore.google.com/detail/kllhbpmenkejgnhmioaomhanmpnacpkd?utm_source=item-share-cb"
+        tagline: "Productivity-focused Chrome extension that enables users to organize, group, and manage browser tabs efficiently. Designed to improve workflow efficiency for developers and power users by reducing tab clutter and enabling quick context switching."
 
 
 career-profile:
@@ -134,69 +214,6 @@ projects:
       link: "#"
       tagline: >
         A responsive web-based application used in Airbus’s German plants to digitize and streamline aircraft component quality inspections in real-time, improving traceability and compliance.
-
-skills:
-  title: Skills & Proficiency
-
-  toolset:
-    - name: "Frontend: Angular (7+), TypeScript, RxJS, NgRx, Angular Material, PrimeNG"
-      level: 95%
-    - name: "Web Fundamentals: JavaScript (ES6+), HTML5, CSS3, SCSS, Responsive Design, Web Accessibility (WCAG/ARIA)"
-      level: 95%
-    - name: "Backend: Node.js, Express.js, RESTful API Design, Microservices Architecture"
-      level: 90%
-    - name: "Backend (Secondary): .NET Core (ASP.NET Core Web APIs)"
-      level: 70%
-    - name: "Databases: MongoDB, MySQL (Data Modeling, Indexing, Query Optimization)"
-      level: 85%
-    - name: "State Management & Architecture: NgRx, Reactive Programming, Modular Architecture, Design Systems"
-      level: 90%
-    - name: "Testing: Unit Testing (Karma, Jasmine, Mocha, Chai), Integration Testing"
-      level: 85%
-    - name: "DevOps & Cloud: OpenShift, Docker (Basics), CI/CD Pipelines, GitHub Actions / Jenkins"
-      level: 80%
-    - name: "Messaging & Realtime Systems: Kafka, Firebase, Event-Driven Architecture"
-      level: 70%
-    - name: "Performance Optimization: Lazy Loading, Code Splitting, Caching, Bundle Optimization"
-      level: 85%
-    - name: "Tools & Collaboration: Git, GitHub, Bitbucket, Jira, Agile/Scrum"
-      level: 90%
-    - name: "Security & Auth: JWT, Role-Based Access Control (RBAC), Secure API Design"
-      level: 75%
-    - name: "Specialized Libraries: Face-api.js, Geolocation API, yFiles (Graph Visualization)"
-      level: 75%
-    - name: "Leadership & Soft Skills: Technical Leadership, Mentorship, Cross-functional Collaboration, Problem Solving"
-      level: 90%
-
-oss:
-  title: OSS Contributions
-  intro: >
-    I have contributed to the open-source community by creating developer tools that simplify and accelerate Angular development. My work focuses on improving code consistency and reducing boilerplate, especially around NgRx state management.
-  contributions:
-    - title: NgRx Store CLI
-      link: "https://www.npmjs.com/package/ngrx-store-cli"
-      tagline: "A schematic for Angular that simplifies the creation of NgRx store slices — including actions, reducers, selectors, and automatic integration with your app-state.ts."
-
-    - title: TabStack (Chrome Extension)
-      link: "https://chromewebstore.google.com/detail/kllhbpmenkejgnhmioaomhanmpnacpkd?utm_source=item-share-cb"
-      tagline: "Productivity-focused Chrome extension that enables users to organize, group, and manage browser tabs efficiently. Designed to improve workflow efficiency for developers and power users by reducing tab clutter and enabling quick context switching."
-
-publications:
-  title: Publications
-  intro: >
-    I write technical articles on frontend architecture, Angular performance, and scalable web development practices, sharing insights from real-world enterprise experience.
-
-  papers:
-    - title: "10 TypeScript Anti-Patterns Slowing Down Your Development (and How to Avoid Them)"
-      link: "https://levelup.gitconnected.com/10-typescript-anti-patterns-slowing-down-your-development-and-how-to-avoid-them-79c5ffd4f1f6"
-    - title: "10 CSS Performance Hacks Every Frontend Developer Should Know"
-      link: "https://gurseerat.medium.com/10-css-performance-hacks-every-frontend-developer-should-know-but-most-dont-e1d551b56d8f"
-    - title: "Boost Angular Development with ngrx-store-cli: A Scalable State Management Approach"
-      link: "https://gurseerat.medium.com/boost-angular-development-with-ngrx-store-cli-the-ultimate-ngrx-store-schematic-generator-085d5c3deccf"
-    - title: "Web Workers in Angular: Improving Performance with Background Processing"
-      link: "gurseerat.medium.com/web-workers-in-angular-99fc4dac1d40"
-    - title: "Reducing Initial Load Time in Angular Applications: Performance Optimization Techniques"
-      link: "gurseerat.medium.com/reduce-initial-load-time-of-angular-application-9b9ed4a6bfc9"
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by Gurseerat Kaur

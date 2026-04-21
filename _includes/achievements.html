@@ -7,13 +7,9 @@
     </h2>
 
     <ul class="list-styled achievements-list">
-        {% for achievement in achievements.info %}
+        {% for achievement in achievements.items %}
 
-        {% if achievement.link %}
-        <li><a href="{{ achievement.link }}">{{ achievement.details }}</a></li>
-        {% else %}
-        <li>{{ achievement.details }}</li>
-        {% endif %}
+        <li>{{ achievement }}</li>
 
         {% endfor %}
     </ul>
